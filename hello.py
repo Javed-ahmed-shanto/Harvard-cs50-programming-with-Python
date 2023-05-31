@@ -1,13 +1,12 @@
-# # def main():
-# #     name = input("whats your name? ").strip().title()
-# #     hello(name )
+def main():
+    name = input("whats your name? ").strip().title()
+    print(hello(name))
 
 
+def hello(to = "world"):
+    return f"Hello, {to}"
 
-# # def hello(to = "world"):
-# #     print ("Hello, ", to)
-
-
-# # main()
+if __name__ == "__main__":
+    main()
 
 # print("hello, world")
