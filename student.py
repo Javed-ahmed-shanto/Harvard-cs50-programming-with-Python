@@ -96,7 +96,6 @@ class Student:
         house = input("House: ")
         return cls(name, house)
 
-
 def main():
     student = Student.get()
     print(student)
